@@ -16,3 +16,49 @@ body {
 }
 
 /* completa tu codigo aqui */
+.tabla {
+    background: #00ffff;
+    width: 100px;
+    height: 100px;
+    
+}
+.verde  {
+    background: #7fffd4;
+}
+.verde:hover {
+    background: #333;
+    display-block:
+}
+.naranja {
+    background: #ff8c00;
+}
+.pink {
+    background: pink;
+}
+.tabla ul {
+	display: table;
+    margin: 0;
+    padding: 0;
+}
+.tabla ul a {
+  text-decoration: none;
+}
+.tabla ul li {
+	text-align: left;
+    list-style: none;
+    text-transform: uppercase;
+    font-family: arial;
+    float: left;
+    position: relative;
+}
+.tabla ul li:hover {
+    background: #0000;
+    
+}
+.tabla ul li a {
+display: table-cell;
+vertical-align: middle;
+  color: #;
+  width: 100px;
+  height: 100px;
+}
