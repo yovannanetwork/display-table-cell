@@ -16,3 +16,53 @@ body {
 }
 
 /* completa tu codigo aqui */
+nav li{
+    display: block;
+}
+nav li a{
+    display: table;
+    opacity: 1;
+    transition: all 0.3s;
+    text-transform: uppercase;
+    height: 100px;
+    width: 100px;
+    text-decoration: none;
+    text-align: left;
+}
+nav li a:hover span{
+    opacity: 1;
+}
+nav li a:hover{
+    padding-left: 100px;
+    
+}
+nav li:nth-child(1) a{
+    background: #70c5f7;
+    color: #70c5f7;
+}
+nav li:nth-child(2) a{
+    background: palegreen;
+    color: palegreen;
+}
+nav li:nth-child(3) a{
+    background: orange;
+    color: orange;
+}
+nav li:nth-child(4) a{
+    background: lightpink;
+    color: lightpink;
+}
+nav li:nth-child(1) a:hover{
+    background: #333;
+}
+nav li:nth-child(2) a:hover{
+    background: #333;
+}
+nav li:nth-child(3) a:hover{
+    background: #333;
+}
+nav li:nth-child(4) a:hover{
+    background: #333;
+}
+
+
